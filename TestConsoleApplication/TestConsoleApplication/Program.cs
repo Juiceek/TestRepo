@@ -30,7 +30,7 @@ namespace TestConsoleApplication
     //----------------------
 
 
-
+    //some changes for git
 
     struct MyStruct
     {

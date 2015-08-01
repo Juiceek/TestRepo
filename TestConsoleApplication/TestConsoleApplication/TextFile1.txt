@@ -1,0 +1,16 @@
+System.OverflowException was unhandled
+  HResult=-2146233066
+  Message=Arithmetic operation resulted in an overflow.
+  Source=TestConsoleApplication
+  StackTrace:
+       at TestConsoleApplication.MyStruct..ctor(Char c) in c:\Users\Alexey\Documents\Visual Studio 2013\Projects\TestConsoleApplication\TestConsoleApplication\Program.cs:line 24
+       at TestConsoleApplication.Program.Main(String[] args) in c:\Users\Alexey\Documents\Visual Studio 2013\Projects\TestConsoleApplication\TestConsoleApplication\Program.cs:line 45
+       at System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+       at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+       at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+       at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+       at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+       at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+       at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+       at System.Threading.ThreadHelper.ThreadStart()
+  InnerException: 
